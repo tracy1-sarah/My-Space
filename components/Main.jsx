@@ -18,7 +18,7 @@ export default function Main() {
                         initial={{ top: "25rem", left: "10rem" }}
                         whileInView={{ left: "0rem" }}
                         transition={transition}>
-                        <Image alt="emoji" src={glasses} />
+                        <Image alt="emoji" src={glasses} width="150px" height="150px" />
                     </motion.div>
                 </div>
                 <div>
@@ -35,9 +35,11 @@ export default function Main() {
                             whileInView={{ left: "-14%" }}
                             transition={transition}
                         >
-                            <Image alt="emoji" src={humble} />
+                        <Image alt="emoji" src={humble} width="150px" height="150px" />
                         </motion.div>
                 </div>
+                <div className="blur hidden"></div>
+                {/* <div className='backdrop-blur-sm bg-red/30 absolute w-full'></div> */}
             </div>
         </div>
     )

@@ -15,13 +15,13 @@ export default function Projects() {
             image={movie}
             title="MoviePop"
             description="ReactJs, Firebase and Tailwind Css"
-            demoLink={"https://popx-f5998.web.app/"}
+            demoLink='/moviePop'
           />
           <ProjectCard
             image={fairwork}
             title="TheFairWork"
             description="ReactJs, NodeJs, PostgreSQL"
-            demoLink={"https://thefairwork.com/"}
+            demoLink='/fairWork'
           />
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function About() {
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className="col-span-2">
                     <p className='text-4xl font-bold inline border-b-4 border-purple-600'>About Me</p>
-                    <p className='py-4 text-gray-600'>A Front-end Engineer with 3 years of experience in web applications and a demonstrated history of working with companies such as AmaliTech Services and TechLine Africa.
+                    <p className='py-4 text-gray-600'>A Front-end Developer with 3 years of experience in web applications and a demonstrated history of working with companies such as AmaliTech Services and TechLine Africa.
                         Proficient in HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, Next Js, React Js. Also a mobile app developer
                         using React Native.
                         Possesses good communication skills and a good team player.            

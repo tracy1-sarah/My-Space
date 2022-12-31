@@ -15,7 +15,7 @@ import code from "../public/assets/skills/vscode.png"
 
 export default function Skills() {
   return (
-      <div id="skills" className='w-full md:h-screen lg:h-screen'>
+      <div id="skills" className='w-full mt-16 md:h-screen lg:h-screen'>
           <div className='max-w-[1240px] m-auto flex flex-col justify-center w-full px-2 py-24'>
               <div>
               <p className="text-4xl font-bold inline border-b-4 border-purple-600">Tech Stacks</p>
