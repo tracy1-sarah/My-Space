@@ -11,7 +11,7 @@ export default function Projects() {
         <div>
         <p className="text-4xl font-bold inline border-b-4 border-purple-600">Projects</p>
           </div>
-        <div className="grid pt-8 md:grid-cols-2 gap-8">
+        <div className="grid pt-8 md:grid-cols-3 gap-8">
           <ProjectCard
             image={movie}
             title="MoviePop"
