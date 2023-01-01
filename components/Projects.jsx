@@ -2,6 +2,7 @@ import React from 'react'
 import movie from "../public/assets/projects/movie.PNG"
 import ProjectCard from './cards/ProjectCard'
 import  fairwork from "../public/assets/projects/fairwork.PNG"
+import blog from "../public/assets/projects/blog.PNG"
 
 export default function Projects() {
   return (
@@ -14,14 +15,17 @@ export default function Projects() {
           <ProjectCard
             image={movie}
             title="MoviePop"
-            description="ReactJs, Firebase and Tailwind Css"
             demoLink='/moviePop'
           />
           <ProjectCard
             image={fairwork}
             title="TheFairWork"
-            description="ReactJs, NodeJs, PostgreSQL"
             demoLink='/fairWork'
+          />
+          <ProjectCard
+            image={blog}
+            title="TheFairWork Blog"
+            demoLink='/fairworkBlog'
           />
         </div>
       </div>

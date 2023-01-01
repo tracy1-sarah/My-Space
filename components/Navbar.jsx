@@ -21,15 +21,17 @@ export default function Navbar() {
     
     useEffect(() => {
         if (router.asPath === '/moviePop' || router.asPath === '/fairWork') {
-            setNavBg('#ffffff')
+            setNavBg('#transparent')
             setLinkColor('#1f2937')
             
-        }else{
+        }
+         else {
             setNavBg("#ecf0f3")
             setLinkColor("#1f2937")
         }
         
     },[router])
+
 
 
     const handleOpen = () => {

@@ -8,8 +8,8 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi"
 
 export default function Contact() {
     return (
-        <div id="contact" className='w-full md:h-screen lg:h-screen'>
-            <div className="max-w-[1000px] m-auto px-2 py-20 w-full ">
+        <div id="contact" className='w-full  md:h-screen lg:h-screen'>
+            <div className="max-w-[1000px] m-auto px-2 py-20 pt-40  w-full ">
                 <p className='text-4xl font-bold inline border-b-4 border-purple-600'>Get in touch</p>
                 <div className="pt-8 grid md:grid-cols-2 gap-8"> 
                     {/* RIGHT */}
@@ -29,7 +29,7 @@ export default function Contact() {
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className='text-sm uppercase py-2'>Email</label>
-                                    <input className='border-2 rounded-lg  p-3 flex border-purple-100' name="em" required type="email" />
+                                    <input className='border-2 rounded-lg  p-3 flex border-purple-100' name="email" required type="email" />
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className='text-sm uppercase py-2'>Subject</label>
