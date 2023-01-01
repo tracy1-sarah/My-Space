@@ -13,34 +13,12 @@ html{
 }
 
 
-.blur{
-  background: #9925dc;
-  position: absolute;
-  border-radius: 50%;
-  top: -18%;
-  left: 56%;
-  height: 18rem;
-  width: 58rem;
-  filter: blur(212px);
-
-  /* width: 58rem */
-    /* position: absolute;
-  width: 70rem;
-  height: 18rem;
-  border-radius: 50%;
-  background: #9925dc;
-  filter: blur(212px);
-  z-index: -9;
-  top: -18%;
-  left: 56%; */
-}
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@300;400;700&family=Montserrat:wght@400;700&display=swap');
 
 
 @layer base{
   body{
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
-
   }
 
   h1, h2, h3, h4, h5{

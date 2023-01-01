@@ -16,7 +16,7 @@ export default function Main() {
                 <div className="hidden md:flex flex-col relative">
                     <motion.div
                         initial={{ top: "25rem", left: "10rem" }}
-                        whileInView={{ left: "0rem" }}
+                        whileInView={{ left: "6rem" }}
                         transition={transition}>
                         <Image alt="emoji" src={glasses} width="150px" height="150px" />
                     </motion.div>
@@ -39,7 +39,6 @@ export default function Main() {
                         </motion.div>
                 </div>
                 <div className="blur hidden"></div>
-                {/* <div className='backdrop-blur-sm bg-red/30 absolute w-full'></div> */}
             </div>
         </div>
     )

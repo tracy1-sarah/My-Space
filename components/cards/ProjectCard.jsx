@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { motion } from "framer-motion";
+
 
 export default function ProjectCard({image, title, demoLink}) {
   return (
@@ -12,5 +14,6 @@ export default function ProjectCard({image, title, demoLink}) {
                   <p className='text-center py-2 mt-4 rounded-lg bg-white text-black font-bold text-lg cursor-pointer'>More Info</p>
               </Link>
           </div>
-      </div>  )
+      </div> 
+    )
 }
