@@ -7,8 +7,8 @@ import Link from 'next/link'
 function fairWork() {
   return (
       <div className='w-full'>
-          <div className="w-screen h-[40vh] lg:h-[50vh] relative">
-              <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[50vh] bg-black/80 z-10" />
+          <div className="w-screen h-[50vh] lg:h-[50vh] relative">
+              <div className="absolute top-0 left-0 w-full h-[50vh] lg:h-[50vh] bg-black/80 z-10" />
               <Image className="absolute z-1" layout="fill" objectFit="cover" src={movieImg} alt="" />
               <div className="absolute top-[60%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[50%] text-white z-10 p-2">
                   <h2 className="py-2">TheFairWork</h2>
@@ -33,6 +33,8 @@ function fairWork() {
                       <p className='text-center font-bold pb-2'>Technologies</p>
                       <div className="grid grid-cols-3 md:grid-cols-1">
                           <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> React Js</p>
+                          <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> CSS 3</p>
+                          <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> MaterialUI</p>
                           <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Node Js</p>
                           <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> PostgreSQL</p>
                       </div>
