@@ -95,7 +95,7 @@ export default function Navbar() {
                             </div>
                         </div>
                         <div className='border-b border-purple-600 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Lets build</p>
+                            <p className='w-[85%] md:w-[90%] py-4'>A mint of creativity</p>
                         </div>
                     </div>
                     <div className="py-4 flex flex-col">
@@ -126,8 +126,8 @@ export default function Navbar() {
                                 </li>
                             </Link>
                         </ul>
-                        <div className="pt-40">
-                            <p className="uppercase tracking-wide text-[#9333EA]">Get in touch with me</p>
+                        <div className="pt-30">
+                            <p className="uppercase tracking-wide text-[#9333EA]">Connect with me</p>
                             <div className='flex items-center justify-between my-2 w-full sm:w-[80%]'>
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <Link href="https://www.linkedin.com/in/tracy-sarah-afram-owusu-165b6818a/">
